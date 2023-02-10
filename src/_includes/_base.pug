@@ -1,0 +1,46 @@
+---
+title: Leigh Capili
+
+banner:
+  alt: Banner of Leigh sitting on his snowboard, smiling, taking a break, with mountains in the background
+  image: https://media.licdn.com/dms/image/D5616AQEXf6X4VtJ_Bw/profile-displaybackgroundimage-shrink_350_1400/0/1666685666139?e=1678924800&v=beta&t=dD3MRbUFCDee7D2vprXz3rFh3Srnr-_WzQAk75ynxdY
+---
+
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css')
+  link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+  title #{title}
+body
+  #all
+    #main
+      nav
+        ul
+          li
+            a(href="/" aria-current=page.url=="/"?"page":undefined) Leigh Capili
+          li
+            a(href="/blog/" aria-current=page.url=="/blog/"?"page":undefined) Blog
+          li.right
+              a(href="https://github.com/stealthybox")
+                img.social(alt="github" src="https://img.icons8.com/ios/512/github.png")
+          li.right
+              a(href="https://twitter.com/capileigh")
+                img.social(alt="twitter" src="https://img.icons8.com/ios/512/twitter.png")
+          li.right
+              a(href="https://instagram.com/leighcapili")
+                img.social(alt="instagram" src="https://img.icons8.com/ios/512/instagram.png")
+          li.right
+              a(href="https://linkedin.com/in/leighcs")
+                img.social(alt="linkedin" src="https://img.icons8.com/ios/512/linkedin.png")
+      
+      img#banner(src=banner.image alt=banner.alt)
+      #content.
+        !{content}
+    footer
+      p#copyright
+        small © Copyright #{helpers.currentYear()} Leigh Capili
+
+style(type="text/css")
+  include _style.css
