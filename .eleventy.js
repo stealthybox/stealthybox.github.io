@@ -3,6 +3,10 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
+  const input = "src"
+  const output = "dist"
+  eleventyConfig.addPassthroughCopy(`${input}/img`);
+
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -39,8 +43,9 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      input: "src",
-      output: "dist"
-    }
+      input,
+      output
+    },
+    passthroughFileCopy: true
   }
 };
