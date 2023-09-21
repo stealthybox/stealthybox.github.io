@@ -25,15 +25,14 @@ module.exports = function(eleventyConfig) {
     }
     url.searchParams.set("modestbranding", 1)
     title = `YouTube video player${title ? ` for ${title}` : ""}`
-    return `<iframe
-  class="yt-shortcode"
-  width="560" height="315"
+    return `<div class="youtube"><div class="maintain-aspect-ratio"><iframe
+  class="responsive-iframe"
   src="${url.toString()}"
   title="${title}"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
-></iframe>
+></iframe></div></div>
 `
   });
 
