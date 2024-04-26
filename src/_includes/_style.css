@@ -14,7 +14,7 @@ a {
 }
 a:visited {
     /* blueviolet darkened */
-    color: hsl(271, 65%, 35%);
+    color: hsl(271, 70%, 40%);
 }
 a:hover, a:active {
     background-color: hsl(300, 100%, 94%);
@@ -41,6 +41,16 @@ a:hover, a:active {
 
 #content img {
     max-width: 100%;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
 }
 
 /* https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
