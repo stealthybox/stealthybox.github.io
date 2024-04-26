@@ -5,14 +5,16 @@ const { DateTime } = require("luxon");
 module.exports = function(eleventyConfig) {
   const input = "src"
   const output = "dist"
-  eleventyConfig.addPassthroughCopy(`${input}/img`);
+  eleventyConfig.addPassthroughCopy("img");
 
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   eleventyConfig.addPlugin(syntaxHighlight);
   
   eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+    return DateTime.fromJSDate(dateObj)
+      .setLocale('en-US')
+      .toLocaleString(DateTime.DATE_MED);
   });
 
   eleventyConfig.addShortcode("youtube", (id, title, start, end) => {
