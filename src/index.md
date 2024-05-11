@@ -19,14 +19,21 @@ _________
 
 ## Speaking
 
-#### upcoming
-- KubeCon China 2023 - [Carvel: Clean Tools for Cloudy Problems](https://kccncosschn2023.sched.com/event/1PTIg/carveldaepdou-zhao-xie-lin-zha-carvel-clean-tools-for-cloudy-problems-leigh-capili-vmware)
-- SpringOne Tour 2023 - [Carvel: Clean Tools for Cloudy Problems](https://springonetour.io/sessions/carvel-clean-tools-for-cloudy-problems)
+<!-- #### upcoming -->
 
 #### recent
 {% youtube "jh2P2vZHnG4" "How the Basics Of Kubernetes Auth Scale For Organizations" 8 %}
 
 #### past
+  - KubeCon Paris 2024 - [KubeDDR! A Dance of Predictive Scoring with MLOps, Step by Step - Leigh Capili & Annie Talvasto](https://www.youtube.com/watch?v=46dGFsIxCLA&pp=ygUMbGVpZ2ggY2FwaWxp)
+  - KubeCon Paris 2024 - [Graduated Project Updates - Flux](https://www.youtube.com/watch?v=pW-R7wk_YQI&t=328s)
+  - KubeCon Paris 2024 - [Flux: Secure and Scalable GitOps | Project Lightning Talk](https://www.youtube.com/watch?v=LTwJIMWovO4&pp=ygUka3ViZWNvbiBwcm9qZWN0IGxpZ2h0bmluZyB0YWxrcyBmbHV4)
+  - SoCal Linux Expo 2024 - [Gateway API: Basics, Nuance, and the Real World](https://www.youtube.com/watch?v=nQXRhHrX4ik&t=2839s&pp=ygUWc2NhbGUgMjF4IGxlaWdoIGNhcGlsaQ%3D%3D)
+
+  - [Coffee + Software /w Josh Long & Leigh Capili](https://www.youtube.com/watch?v=e2_COM0ecB8&pp=ygUMbGVpZ2ggY2FwaWxp)  
+  - [Live Troubleshooting Kubernetes: Overcoming Registry Roadblocks /w DaShaun Carter & Leigh Capili](https://www.youtube.com/watch?v=g_k4pfQvKk4)  
+  - SpringOne Tour 2023 - [Carvel: Clean Tools for Cloudy Problems](https://www.youtube.com/watch?v=RU03-0IuAX8&list=PLAdzTan_eSPQB81NRBRUcLCuB4gIIsKIp)
+  - KubeCon China 2023 - [Carvel: Clean Tools for Cloudy Problems](https://www.youtube.com/watch?v=SS-9NmENcrE&pp=ygUMbGVpZ2ggY2FwaWxp)  
   - [The Computers We Deserve - DevCentral Connects 131 - June 27, 2023](https://www.youtube.com/watch?v=IDQ8CbPWkSE) <!-- Streamed 2 months ago 52 minutes -->
   <!--  This looks like it was pirated off of the CNCF channel - [People > Process > GitOps](https://www.youtube.com/watch?v=LUnsD1Qe3v8) ^^^ 2 months ago 16 minutes --->
   - GitOpsCon NA 2023 - [People > Process > GitOps](https://www.youtube.com/watch?v=74ImHIe3ePQ) <!-- 3 months ago 16 minutes -->
